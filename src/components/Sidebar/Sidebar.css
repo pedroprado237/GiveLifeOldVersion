@@ -1,0 +1,55 @@
+/* Colors menu */
+.sidebarMenu {
+    background-color: var( --wine-1) !important;
+    height: 100vh;
+}
+.rs-sidenav-default, .rs-sidenav-item {
+    background-color: var( --wine-1) !important;
+    color: white !important;
+}
+
+/* Colors menu hover */
+.rs-sidenav-item:hover{
+    background: var( --wine-2) !important;
+}
+
+/* Itens menu */
+#navItem1{
+    margin-top: 5px !important;
+}
+#navItem2,
+#navItem3,
+#navItem4{
+    margin-top: 5px !important;
+}
+
+#navItem5{
+    margin-top: 120px !important
+}
+
+
+/* Infos User */
+.infosUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.separador{
+    width: 90%;
+    height: 1.5px solid black;
+}
+
+.iconUser{
+    margin: 10px 0px;
+}
+.iconUser img{
+    width:130px;
+    height:130px;
+    border-radius: 100px !important;
+}
+
+#nameUser{
+    font-weight: bold;
+}

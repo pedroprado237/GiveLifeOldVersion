@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --wine-1: #480005;
+  --wine-2: #620208;
+}
+
+body,
+input,
+button {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4{
+  color: white;
+}
+
+.pageContent {
+  padding: 1% 2.4% 1% 2.4%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(136, 3, 11);
+  background-image: linear-gradient(to top, rgb(167, 5, 16), rgb(122, 4, 11));
+}
+
+.cardContent{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(180, 2, 14);
+}
